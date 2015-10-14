@@ -1,0 +1,16 @@
+*** instalação ***
+- sudo apt-get update && apt-get install git git-core
+
+*** configuracao inicial de usuario ***
+- git config --global user.name "Pedro da Silva"
+- git config --global user.email "pedro.da.silva@gmail.com"
+	(~/.gitconfig)
+
+*** comandos iniciais ***
+- git init                (para inicializar repositorio)
+- git status              (para verificar status do repositorio)
+- git add                 (adiciona arquivo ao indice) 
+- git rm --cached         (para arquivo adicionado no indice)
+- git checkout -- arquivo (para arquivo alterado no indice)
+- git reset HEAD          (depois do primeiro commit)
+- git log                 (visualiza commits realizados) 
